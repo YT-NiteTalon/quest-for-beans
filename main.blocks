@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="jziWej51SCF2{,#O6(cp">Mr.Beanz</variable><variable type="KIND_SpriteKind" id="Sx?#owDd^iV00j;^e|{)">Player</variable><variable type="KIND_SpriteKind" id="/uV,N=4*?9^W0g;gtTD=">Projectile</variable><variable type="KIND_SpriteKind" id="B=Og98e?bRl#jCAC(*a)">Food</variable><variable type="KIND_SpriteKind" id=")AG`jcF7Vc-AHCNH9LD5">Enemy</variable><variable type="KIND_SpriteKind" id="n$ds4f40`,OPre(O$GQ^">MrBeanz</variable></variables><block type="pxt-on-start" id="x^d6UP/?ND$vH4S1cV+4" x="0" y="0"><statement name="HANDLER"><block type="set_current_tilemap" id="EvnCUKqrct-i}TELC3bl"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="=R*|tvseY!$GNDAR22eS"><field name="tilemap">tilemap`level2`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level2"}}</data></shadow></value><next><block type="variables_set" id="B=eW~jZO625*sT:Jed@X"><field name="VAR" id="jziWej51SCF2{,#O6(cp">Mr.Beanz</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="l2W7dyfJN_Sgog.Bnv;+"><value name="img"><shadow type="screen_image_picker" id="n6_Uh^QwK/8{{Zm(H*8Y"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . 1 1 f f f f . . . . . . 
+. . . 1 1 f 1 1 f f . . . . . . 
+. . f 1 f f f 1 1 f f f . . . . 
+. . f 1 f f f f 1 f f f . . . . 
+. . . f 1 1 f f 1 f f f . . . . 
+. . . f f f 1 1 1 f f f . . . . 
+. . . f f f f 1 1 f f f f . . . 
+. . . f f f f f 1 f f f . . . . 
+. . . f f f f 1 1 f f f . . . . 
+. . . f f f 1 1 1 f f . . . . . 
+. . . . f f 1 1 f f . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"n6_Uh^QwK/8{{Zm(H*8Y"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Z)aPYn)aDo6h=KHi[An8"><field name="MEMBER">MrBeanz</field></shadow></value></block></value></block></next></block></statement></block><block type="forever" id="IK2GBw7Dkpiu[[sIm#h%" x="610" y="10"></block></xml>
