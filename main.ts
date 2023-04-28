@@ -20,7 +20,7 @@ let MrBeanz = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.MrBeanz)
-controller.moveSprite(MrBeanz, 100, 100)
 forever(function () {
-	
+    controller.moveSprite(MrBeanz)
+    scene.cameraFollowSprite(MrBeanz)
 })
