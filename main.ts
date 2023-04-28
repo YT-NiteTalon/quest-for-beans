@@ -1,6 +1,9 @@
 namespace SpriteKind {
     export const MrBeanz = SpriteKind.create()
 }
+scene.onOverlapTile(SpriteKind.MrBeanz, assets.tile`transparency16`, function (sprite, location) {
+	
+})
 tiles.setCurrentTilemap(tilemap`level2`)
 let MrBeanz = sprites.create(img`
     . . . . . . . . . . . . . . . . 
